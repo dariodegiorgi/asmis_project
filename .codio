@@ -3,12 +3,12 @@
 
 // Run button configuration
   "commands": {
-        "Start mysite2 project": "django-admin startproject mysite2",
-        "RunServer": "python django02/mysite2/manage.py runserver 0.0.0.0:8000"
+        "Start mysite project": "django-admin startproject asmis",
+        "RunServer": "python django01/asmis/manage.py runserver https://github.com/dariodegiorgi/asmis:443"
   },
 
 // Preview button configuration
   "preview": {
-         "Box URL Django Admin": "http://{{domain8000}}/admin"
+         "Box URL Django Admin": "https://github.com/dariodegiorgi/asmis"
          }
 }
